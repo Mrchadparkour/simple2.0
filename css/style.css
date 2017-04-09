@@ -1,4 +1,26 @@
 #navBar {
   display: flex;
-  
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 10%;
+  transition: 1s;
+}
+#navBar:hover {
+  width:20%;
+}
+
+.tab {
+  border: solid 1px black;
+  flex: 1;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
 }
